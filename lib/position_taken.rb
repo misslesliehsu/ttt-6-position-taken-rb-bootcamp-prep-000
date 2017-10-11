@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
-def position_taken?(input)
+def position_taken?(board, input)
   index_number = input.to_i
-  if array(index_number) == " " || array(index_number) == "" || array(index_number) == nil
+  if board(index_number) == " " || board(index_number) == "" || board(index_number) == nil
     return false
   else
     return true
